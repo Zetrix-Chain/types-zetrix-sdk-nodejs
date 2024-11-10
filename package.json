@@ -2,7 +2,7 @@
   "name": "@types/zetrix-sdk-nodejs",
   "version": "1.0.0",
   "description": "TypeScript definitions for Zetrix SDK Nodejs",
-  "homepage": "https://github.com/Zetrix-Chain/zetrix-sdk-nodejs-ts",
+  "homepage": "https://github.com/Zetrix-Chain/zetrix-sdk-nodejs-ts/tree/main",
   "license": "MIT",
   "author": "Ammar Abdullah <armmarov@gmail.com>",
   "contributors": [
