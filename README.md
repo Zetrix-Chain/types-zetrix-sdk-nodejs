@@ -8,73 +8,9 @@ This package contains type definitions for zetrix-sdk-nodejs (https://github.com
 
 # Details
 
-Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/zetrix-sdk-nodejs.
+Files were exported from https://github.com/Zetrix-Chain/zetrix-sdk-nodejs-ts.
 
-## [index.d.ts](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/stack-utils/index.d.ts)
-
-````ts
-export = ZtxChainSDK
-
-declare class ZtxChainSDK {
-  constructor(options?: ZtxChainSDK.Options)
-
-  util: Util
-  account: Account
-  transaction: Transaction
-  token: Token
-  block: Block
-  operation: Operation
-  contract: Contract
-}
-
-declare namespace ZtxChainSDK {
-  interface Options {
-    inited?: boolean
-    host: string
-    chainId?: number
-    timeout?: number
-    secure: boolean
-  }
-
-  interface Util {
-  }
-
-  interface Account {
-    getNonce(address: string): Response
-  }
-
-  interface Transaction {
-    evaluateFee(args: any): Response
-
-    buildBlob(args: any): Response
-
-    sign(args: any): Response
-
-    submit(args: any): Response
-
-    getInfo(hash: string): Response
-  }
-
-  interface Token {
-  }
-
-  interface Block {
-  }
-
-  interface Operation {
-  }
-
-  interface Contract {
-  }
-
-  interface Response {
-    result: any
-    error: any
-  }
-}
-
-
-````
+## [index.d.ts](https://github.com/Zetrix-Chain/zetrix-sdk-nodejs-ts/blob/main/index.d.ts)
 
 ### Additional Details
 
