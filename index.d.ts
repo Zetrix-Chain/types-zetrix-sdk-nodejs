@@ -3,13 +3,13 @@ export = ZtxChainSDK
 declare class ZtxChainSDK {
   constructor(options?: ZtxChainSDK.Options)
 
-  util: Util
-  account: Account
-  transaction: Transaction
-  token: Token
-  block: Block
-  operation: Operation
-  contract: Contract
+  util: ZtxChainSDK.Util
+  account: ZtxChainSDK.Account
+  transaction: ZtxChainSDK.Transaction
+  token: ZtxChainSDK.Token
+  block: ZtxChainSDK.Block
+  operation: ZtxChainSDK.Operation
+  contract: ZtxChainSDK.Contract
 }
 
 declare namespace ZtxChainSDK {
