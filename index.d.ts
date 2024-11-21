@@ -20,8 +20,6 @@ declare namespace ZtxChainSDK {
     secure: boolean
   }
 
-  interface Util {}
-
   interface Account {
     create(): Response
 
